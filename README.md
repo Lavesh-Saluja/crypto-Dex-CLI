@@ -6,7 +6,7 @@ A simple and powerful Node.js CLI tool to manage API keys and check cryptocurren
 
 Install the package globally using npm:
 
-echo "npm install -g crypto-cli"
+npm install -g crypto-cli
 
 # Manage API Key
 ## Set API Key
