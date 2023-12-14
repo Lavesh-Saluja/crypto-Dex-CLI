@@ -6,10 +6,9 @@ A simple and powerful Node.js CLI tool to manage API keys and check cryptocurren
 
 Install the package globally using npm:
 
-```bash
-npm install -g crypto-cli
+echo "npm install -g crypto-cli"
 
-#Manage API Key
+# Manage API Key
 ## Set API Key
 crypto-cli key set
 
@@ -24,3 +23,4 @@ crypto-cli check price --coin BTC,ETH,XRP --cur USD
 ### options
 --coin <type>: Specify cryptocurrency types in CSV format (default: BTC,ETH,XRP).
 --cur <currency>: Choose the currency for prices (default: USD).
+
