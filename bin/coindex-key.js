@@ -1,7 +1,7 @@
 import {program} from 'commander';
 import key from '../commands/key.js';
 program.command('set')
-    .description('Set API Key -- Get at https://nomics.com')
+    .description('Set API Key -- Get at https://coinlayer.com')
     .action(key.set)
 program.command('show')
     .description('Show API Key')
