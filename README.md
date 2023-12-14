@@ -10,17 +10,17 @@ npm install -g crypto-cli
 
 # Manage API Key
 ## Set API Key
-crypto-cli key set
+coindex key set
 
 ## Show API Key
-crypto-cli key show
+coindex key show
 
 ## Remove API Key
-crypto-cli key remove
+coindex key remove
 
 # Check Coin Price Info
-crypto-cli check price --coin BTC,ETH,XRP --cur USD
+coindex check price --coin BTC,ETH,XRP --cur USD
 ### options
---coin <type>: Specify cryptocurrency types in CSV format (default: BTC,ETH,XRP).
---cur <currency>: Choose the currency for prices (default: USD).
+--coin <type>: Specify cryptocurrency types in respected Symbols (default: BTC,ETH,XRP).
+--cur <currency>: Choose the currency for prices using respected Notations(Eg: INR) (default: USD).
 
